@@ -1,6 +1,8 @@
 from chardet.universaldetector import UniversalDetector
 import argparse
 
+#需要安装模块 chardet
+
 def detect_file_content(file_name):
     """
     判断文件的编码形式
